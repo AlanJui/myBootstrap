@@ -1,15 +1,17 @@
 /* Sections */
 
 section{
-	padding:30px 0;
+	// padding:30px 0;
 }
 
 .section-showcase {
+	// padding: 0px;
+	margin: -20px;
 	height:$showcase-height;
 	background:url($showcase-image) no-repeat top center;
 	
 	.showcase-content{
-		padding:50px 0;
+		padding:80px 0;
 		text-align:center;
 	}
 	
