@@ -1,5 +1,5 @@
-SKYAPP HTML5 TEMPLATE
-================
+myBootstrap Template
+====================
 
 This is a Bootstrap HTML5 template with SASS
 
