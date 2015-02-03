@@ -125,7 +125,7 @@ module.exports = function (grunt) {
       server: '.tmp'
     },
 
-    // Make sure code css are up to par and there are no obvious mistakes
+    // Make sure code style are up to par and there are no obvious mistakes
     jshint: {
       options: {
         jshintrc: '.jshintrc',
@@ -198,7 +198,7 @@ module.exports = function (grunt) {
         exclude: ['bower_components/bootstrap-sass-official/assets/javajs/bootstrap.js']
       },
       sass: {
-        src: ['<%= config.app %>/css/{,*/}*.{scss,sass}'],
+        src: ['<%= config.app %>/scss/{,*/}*.{scss,sass}'],
         ignorePath: /(\.\.\/){1,2}bower_components\//
       }
     },

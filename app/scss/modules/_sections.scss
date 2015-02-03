@@ -1,12 +1,9 @@
 /* Sections */
 
 section{
-	// padding:30px 0;
 }
 
 .section-showcase {
-	// padding: 0px;
-	margin: -20px;
 	height:$showcase-height;
 	background:url($showcase-image) no-repeat top center;
 	
@@ -37,8 +34,10 @@ section{
 .section-secondary{
 	@include add-background($secondary-color);
 }
+
 .section-light{
 	@include add-background($light-color);
+	padding: 20px 0 20px;
 }
 
 .section-dark{
