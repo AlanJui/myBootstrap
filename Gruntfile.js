@@ -211,6 +211,7 @@ module.exports = function (grunt) {
             '<%= config.dist %>/js/{,*/}*.js',
             '<%= config.dist %>/css/{,*/}*.css',
             '<%= config.dist %>/img/{,*/}*.*',
+            '<%= config.dist %>/font-awesome/{,*/}*.*',
             '<%= config.dist %>/fonts/{,*/}*.*',
             '<%= config.dist %>/css/fonts/{,*/}*.*',
             '<%= config.dist %>/*.{ico,png}'
