@@ -40,6 +40,10 @@ section{
 	padding: 20px 0 20px;
 }
 
+.section-features {
+	padding: 20px 0 20px;
+}
+
 .section-dark{
 	@include add-background($dark-color);
 }
