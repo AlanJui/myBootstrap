@@ -1,6 +1,7 @@
 /* Sections */
 
 section{
+	padding: 25px 0 20px;
 }
 
 .section-showcase {
@@ -37,15 +38,12 @@ section{
 
 .section-light{
 	@include add-background($light-color);
-	padding: 20px 0 20px;
 }
 
 .section-features {
-	padding: 20px 0 20px;
 }
 
 .section-specification {
-	padding: 0 0 20px;
 }
 
 .section-dark{
