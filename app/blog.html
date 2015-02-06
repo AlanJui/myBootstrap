@@ -1,23 +1,323 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>myBootstrap | Blog</title>
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/font-awesome.css" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
-  </head>
 
-  <body>
-	
-    <!-- Bootstrap core JavaScript
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>myBootstrap | Blog</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <!-- Navgation Bar and Menus -->
+  <header class="header-main">
+    <nav class="navbar navbar-inverse navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">SkyApp</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/">Home</a>
+          </li>
+          <li><a href="about.html">About</a>
+          </li>
+          <li><a href="services.html">Service</a>
+          </li>
+          <li class="active"><a href="blog.html">Blog</a>
+          </li>
+          <li><a href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Register</a>
+          </li>
+          <li><a href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </nav>
+  </header>
+
+  <!-- Search on Website and Products -->
+  <section class="section-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form class="search">
+            <input type="search" placeholder="Search Our Website & Products">
+            <button tpe="submit" value="">
+              <img src="img/search.png" alt="Search">
+            </button>
+          </form>
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slogan -->
+  <section class="section-primary-a">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h2>Building technology to shape our future</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Contents -->
+  <section class="section-main">
+    <div class="container">
+      <div class="row">
+        <!-- Left Side -->
+        <div class="col-md-8">
+          <h2 class="page-header">Read Our Blog</h2>
+
+          <!-- One Post -->
+          <div>
+            <div class="blog-post">
+              <h2 class="page-header">In lacinia ipsum sit amet</h2>
+              <img src="img/blog1.png" class="img-sm img-bordered blog-featured">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti aspernatur at, veritatis non quisquam obcaecati a ipsa sunt ut ullam quis dolor! Iure, deserunt nesciunt corporis, magnam sequi maiores sunt ea eos qui, sed inventore laudantium, minima doloremque eius? Officiis provident, adipisci enim molestiae quae aperiam! Suscipit, ducimus molestiae quas?</p>
+            </div>
+            <div class="post-meta">
+              <i class="fa fa-clock-o"></i> Aug 31, 2014&nbsp;
+              <i class="fa fa-user"></i> Brad Traversy&nbsp;
+              <i class="fa fa-folder"></i> Graphic Design, Web Development
+              <a href="#" class="pull-right">Read More</a>
+            </div>
+          </div>
+          <!-- End One Post -->
+
+          <!-- One Post -->
+          <div>
+            <div class="blog-post">
+              <h2 class="page-header">In lacinia ipsum sit amet</h2>
+              <img src="img/blog1.png" class="img-sm img-bordered blog-featured">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti aspernatur at, veritatis non quisquam obcaecati a ipsa sunt ut ullam quis dolor! Iure, deserunt nesciunt corporis, magnam sequi maiores sunt ea eos qui, sed inventore laudantium, minima doloremque eius? Officiis provident, adipisci enim molestiae quae aperiam! Suscipit, ducimus molestiae quas?</p>
+            </div>
+            <div class="post-meta">
+              <i class="fa fa-clock-o"></i> Aug 31, 2014&nbsp;
+              <i class="fa fa-user"></i> Brad Traversy&nbsp;
+              <i class="fa fa-folder"></i> Graphic Design, Web Development
+              <a href="#" class="pull-right">Read More</a>
+            </div>
+          </div>
+          <!-- End One Post -->
+
+          <!-- One Post -->
+          <div>
+            <div class="blog-post">
+              <h2 class="page-header">In lacinia ipsum sit amet</h2>
+              <img src="img/blog1.png" class="img-sm img-bordered blog-featured">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti aspernatur at, veritatis non quisquam obcaecati a ipsa sunt ut ullam quis dolor! Iure, deserunt nesciunt corporis, magnam sequi maiores sunt ea eos qui, sed inventore laudantium, minima doloremque eius? Officiis provident, adipisci enim molestiae quae aperiam! Suscipit, ducimus molestiae quas?</p>
+            </div>
+            <div class="post-meta">
+              <i class="fa fa-clock-o"></i> Aug 31, 2014&nbsp;
+              <i class="fa fa-user"></i> Brad Traversy&nbsp;
+              <i class="fa fa-folder"></i> Graphic Design, Web Development
+              <a href="#" class="pull-right">Read More</a>
+            </div>
+          </div>
+          <!-- End One Post -->
+        </div><!-- End Left Side -->
+
+        <!-- Right Side -->
+        <div class="col-md-4">
+          <h2 class="page-header">Lorem ipsum</h2>
+
+          <!-- Services & Support -->
+          <div role="tabpanel">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#services" aria-controls="services" role="tab" data-toggle="tab">Services</a>
+              </li>
+              <li role="presentation">
+                <a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a>
+              </li>
+              <li role="presentation">
+                <a href="#support" aria-controls="support" role="tab" data-toggle="tab">Support</a>
+              </li>
+            </ul><!-- Nav tabs -->
+          
+            <!-- Tab panes -->
+            <div class="tab-content block-light">
+              <div id="services" role="tabpanel" class="tab-pane active">
+                <h3>Services</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit itaque ullam, excepturi quisquam accusamus unde magni illum. Soluta obcaecati, labore animi delectus at quas minima iusto eligendi, dicta magnam nemo.</p>
+              </div>
+              <div id="about" role="tabpanel" class="tab-pane">
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam unde quidem magni, porro mollitia laborum aperiam nostrum nisi. Eos, est dolorem similique eum aliquam nesciunt sunt ut quos maxime vel.</p>
+              </div>
+              <div id="support" role="tabpanel" class="tab-pane">
+                <h3>Support</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quis, quia optio. Eaque labore ab maxime culpa perferendis iure placeat beatae debitis. Porro nisi libero dicta explicabo voluptatibus hic non!</p>
+              </div>
+            </div><!-- Tab panes -->
+          </div><!-- Services & Support -->
+
+          <!-- Featured Video -->
+          <div class="block block-primary-head">
+            <h3><i class="fa fa-play-circle"></i> Featured Video</h3>
+            <div class="block-content">
+              <iframe src="http://www.youtube.com/embed/rUeiZ6c6EBw" frameborder="0" allowfullscreen
+                      width="208" height="208"></iframe>
+            </div>
+          </div><!-- End Featured Video -->
+
+          <!-- Recent Comments -->
+          <div class="block block-primary-head no-pad">
+            <h3><i class="fa fa-comment"></i> Recent Comments</h3>
+
+            <div class="block-content">
+              <ul class="list-comments">
+                <li>
+                  <img src="img/headshot1.jpg" class="pull-left img-circle">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, dicta eos maiores et quod ullam suscipit officia repudiandae quo veniam, labore eum minus, quaerat. Consequatur quod temporibus sapiente minus magnam?</p>
+                </li>
+                <div class="clearfix"></div>
+                <li>
+                  <img src="img/headshot2.jpg" class="pull-left img-circle">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam obcaecati, facere error officia nemo. Quidem nemo error ad soluta ex, voluptas distinctio corporis eos aspernatur ducimus laborum tenetur? Accusamus, quo!</p>
+                </li>
+                <div class="clearfix"></div>
+                <li>
+                  <img src="img/headshot3.jpg" class="pull-left img-circle">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui explicabo fugiat, assumenda mollitia eius placeat quisquam perspiciatis, cupiditate nobis illo a quidem laboriosam, nesciunt perferendis in ullam. Placeat, atque itaque!</p>
+                </li>
+                <div class="clearfix"></div>
+              </ul>
+            </div>
+          </div><!-- End Recent Comments -->
+        </div><!-- End Right Side -->
+      </div><!-- end row -->
+    </div><!-- container -->
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-main">
+    <div class="container">
+      <div class="row">
+        <!-- Get the product -->
+        <div class="col-md-4">
+          <h4>Get The SkyAPP</h4>
+          <ul>
+            <li class="app-appstore"><a href="#">App Store</a>
+            </li>
+            <li class="app-play"><a href="#">Google Play Store</a>
+            </li>
+            <li class="app-android"><a href="#">Android Market</a>
+            </li>
+            <li class="app-windows"><a href="#">Windows</a>
+            </li>
+            <li class="app-chrome"><a href="#">Google Chrome Store</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- About -->
+        <div class="col-md-4">
+          <h4>About</h4>
+          <ul>
+            <li><a href="#">What is SkyApp?</a>
+            </li>
+            <li><a href="#">View Our Products</a>
+            </li>
+            <li><a href="#">Advertise with Us</a>
+            </li>
+            <li><a href="#">Careers</a>
+            </li>
+            <li><a href="#">Web Development</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Support -->
+        <div class="col-md-4">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Support Home</a>
+            </li>
+            <li><a href="#">Our Community</a>
+            </li>
+            <li><a href="#">Send A Ticket</a>
+            </li>
+            <li><a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-  </body>
+  <!-- Placed at the end of the document so the pages load faster -->
+<!--
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+-->
+
+  <!-- build:js(.) scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+  (function(b, o, i, l, e, r) {
+    b.GoogleAnalyticsObject = l;
+    b[l] || (b[l] =
+      function() {
+        (b[l].q = b[l].q || []).push(arguments)
+      });
+    b[l].l = +new Date;
+    e = o.createElement(i);
+    r = o.getElementsByTagName(i)[0];
+    e.src = '//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e, r)
+  }(window, document, 'script', 'ga'));
+  ga('create', 'UA-XXXXX-X');
+  ga('send', 'pageview');
+  </script>
+
+  <!-- build:js({app,.tmp}) scripts/main.js -->
+  <script src="js/main.js"></script>
+  <!-- endbuild -->
+
+</body>
+
 </html>
